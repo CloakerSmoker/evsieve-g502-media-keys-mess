@@ -1,0 +1,8 @@
+[Unit]
+Description=G502 Media Keys Tracker
+
+[Service]
+ExecStart=/home/me/Documents/Input/KeyStateHandler.fish
+
+[Install]
+WantedBy=default.target

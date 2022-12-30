@@ -1,0 +1,8 @@
+[Unit]
+Description=evsieve G502 Media Keys Sieve
+
+[Service]
+ExecStart=/home/me/Documents/Input/KeySieve.fish
+
+[Install]
+WantedBy=multi-user.target
